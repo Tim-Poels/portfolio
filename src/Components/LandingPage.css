@@ -1,0 +1,107 @@
+.LandingPage {
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(80, 58, 224) 0 65.25%, rgb(129, 255, 129) 65.5% 100%);
+  display: flex;
+  flex-direction: row;
+}
+
+.LandingPage-name {
+  width: 25vw;
+  height: 100%;
+  padding: 2vw;
+}
+.LandingPage-name > h1 {
+  color: rgb(151, 255, 151);
+  font-size: 3vw;
+}
+
+.LandingPage-about {
+  width: 25vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.LandingPage-about-title {
+  width: 100%;
+  font-size: 5vw;
+  color: rgb(151, 255, 151);
+  font-weight: bolder;
+  
+}
+
+.LandingPage-about-title-text {
+  width: 100%;
+  font-size: 1vw;
+  color: rgb(151, 255, 151);
+  font-weight: lighter;
+  font-style: italic;
+  padding-top: 1vh;
+}
+
+.LandingPage-about-text-container {
+  width: 150%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.LandingPage-about-text {
+  width: 47.5%;
+  color: rgb(151, 255, 151);
+}
+
+.LandingPage-picture {
+  width: 25vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LandingPage-picture > div {
+  height: 15vw;
+  width: 15vw;
+  margin-bottom: 35%;
+  transition: 0.75s;
+}
+
+.LandingPage-picture > div > img {
+  position: relative;
+  height: 15vw;
+  width: auto;
+  z-index: 2;
+  transition: 0.75s;
+}
+
+.LandingPage-picture > div::after {
+  content: "";
+  display: flex;
+  position: relative;
+  height: 15vw;
+  width: 15vw;
+  transform: translate(12.5%, -155%);
+  z-index: 1;
+  border: 1px solid white;
+  transition: 0.75s;
+}
+
+.LandingPage-picture > div:hover::after {
+  transform: translate(7.5%, -160%);
+}
+
+.LandingPage-animation{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.LandingPage-animation > div {
+  height: 30%;
+  width: 100%;
+}

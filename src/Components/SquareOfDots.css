@@ -1,0 +1,26 @@
+.SquareOfDots-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vmin; 
+  width: 15vmin;
+  transition: 0.75s;
+}
+
+.SquareOfDots-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.5%;
+  width: 100%
+}
+
+.SquareOfDots-row > div {
+  height: 100%;
+  width: 2.5%;
+  background-color: white;
+  border-radius: 50%;
+}
