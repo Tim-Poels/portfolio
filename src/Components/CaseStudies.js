@@ -42,10 +42,11 @@ const CaseStudies = () => {
           <CaseStudie 
             title="npm package" 
             period="summer 2022" 
-            text="This project started out as just some practice for my CSS animation skills, 
-              but since a couple of my classmates really liked my animations 
+            text="This project started out as some practice for my CSS animation skills, 
+              but because a couple of classmates really liked my animations 
               I decided to create a npm package that exports them as React components.
-              These Components are easy to manipulate trough props (color, size, animation speed, ect...) so that they can be used in any situation." 
+              These Components are easy to manipulate trough props (color, size, animation speed, ect...) so that they can be used in any situation.
+              I am still working on this and am hoping to publish it by the end of the summer." 
             link="/"
           />
           <div className="case-npm-package-animation-container">
@@ -63,14 +64,16 @@ const CaseStudies = () => {
           <CaseStudie 
             title="interactive nav element" 
             period="june 2022" 
-            text="I found a video showcasing something similar to this online, 
-            and I tought to myself I can do that too. 
-            I started working on it with the suspicion that this was done with ::before and ::after and some skew() propperties. 
+            text={`I found a video showcasing something similar to this online, 
+            and I tought to myself: "I can do that too!"
+            I started working on it with the suspicion that this was done with pseudo elements and some skew() propperties. 
             After a day of playing around and banging my head against my desk, 
             I figured out how skew() works and started getting some results, 
-            a day later I had finished, but I wasn't satisfied with the results. 
+            a day later I had finished, but I wasn't satisfied with the results yet. 
             I didn't like that it was static and the colors didn't fit in my mind.
-            After playing around with it and adding an animation, I was happy with it." 
+            After playing around with it and adding an animation, I was happy with it. 
+            The only thing that doesn't work as well on here as on the project file is the fact that when you press on of the boxes it just redirects you back to this site, 
+            since I just ripped it out of that project.`}
             link="/"
           />
           <div className="Navbar-body">
@@ -98,14 +101,14 @@ const CaseStudies = () => {
           <CaseStudie 
             title="AI Frontend" 
             period="may 2022" 
-            text="This was our second ever group project, 
+            text="This was our second group project, 
             toghether with 2 classmates we were tasked to create the front end for BeCode’s AI bootcamp class. 
-            We had full creative freedom and were allowed to have some fun and experiment. 
-            Eventually were able to come up with a fun design and bring it to life within a week and this is the result, 
-            unfortunatly due to us not having acces to the server anymore this page is all we have to show for it. 
+            We had full creative freedom and thus were allowed to have some fun and experiment. 
+            Eventually we were able to come up with a fun design and bring it to life within a week and this is the result, 
+            unfortunatly due to us not having acces to the server anymore the lading page is all we have to show for it. 
             The technologies we used for this application consist of React for rendering, 
             CSS animations for smooth transition between pages,
-            bycript for the secure authentication,
+            Bycript for the secure authentication,
             canvas for the fun matrix background." 
             link="/"
           />
