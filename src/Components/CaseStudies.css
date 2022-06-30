@@ -15,7 +15,7 @@
   width: 4px;
   background: rgb(99, 79, 232);
   left: 50%;
-  top: 20px;
+  top: 25px;
   transform: translateX(-50%);
 }
 .wrapper .row{

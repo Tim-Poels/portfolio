@@ -1,5 +1,5 @@
 .LandingPage {
-  height: 80vh;
+  height: 500px;
   width: 100%;
   background-image: linear-gradient(to right, rgb(80, 58, 224) 0 65.25%, rgb(129, 255, 129) 65.5% 100%);
   display: flex;

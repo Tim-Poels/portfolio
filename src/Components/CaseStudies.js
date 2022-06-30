@@ -11,8 +11,8 @@ const CaseStudies = () => {
     let body = document.getElementsByClassName("Navbar-body")
     body[0].childNodes[5].style.setProperty('--animation', "drop-shadow 2s ease-out normal");
     setTimeout(() => {
-      body[0].style.animation = "hovering 4s infinite linear"
-      body[0].childNodes[5].style.setProperty('--animation', "hovering-shadow 4s infinite linear");
+      body[0].style.animation = "hovering 6s infinite linear"
+      body[0].childNodes[5].style.setProperty('--animation', "hovering-shadow 6s infinite linear");
     }, "2000")
   })
   const chaneLoc = (event) => {
@@ -113,8 +113,14 @@ const CaseStudies = () => {
             link="/"
           />
           <img src={gif} style={{width: "25vw", margin: "auto", borderRadius: "5px"}}></img>
-          <div>
-          </div>
+        </div>
+        <div className="row">
+          <CaseStudie 
+            title="test"
+            period="30/06"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonumy eirmod tempor inviduer temp u et dolor. Ut enim ad minim veniam, quis nostrud exerci. Lorem ipsum dolor sit amet nunc nonumy eirmod tempor inviduer temp u et"
+            link="/"
+          />
         </div>
       </div>
     </div>

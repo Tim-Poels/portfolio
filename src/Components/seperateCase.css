@@ -79,7 +79,7 @@
 }
 
 .Navbar-body > div:hover {
-  background-color: #33a3ee;
+  background-color: rgb(80, 58, 224);
   transform: translateX(-50px);
 }
 
@@ -97,7 +97,7 @@
 }
 
 .Navbar-body > div:hover::before {
-  background-color: #2982bc
+  background-color: rgb(57, 42, 152)
 }
 
 .Navbar-body > div::after {
@@ -115,7 +115,7 @@
 
 
 .Navbar-body > div:hover::after {
-  background-color: #2982bc
+  background-color: rgb(57, 42, 152)
 }
 
 .Navbar-body > div > div {
